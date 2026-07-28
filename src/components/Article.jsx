@@ -9,5 +9,4 @@ function Article({ title, date = "January 1, 1970", preview }) {
     </article>
   );
 }
-
 export default Article;

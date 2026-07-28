@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="14" failures="0" errors="0" time="2.937">
+    <testsuite name="src/__tests__/About.test.jsx" timestamp="2026-07-28T22:30:25.012Z" hostname="DESKTOP-69NATIL" tests="4" failures="0" errors="0" skipped="0" time="0.135393809">
+        <testcase classname="src/__tests__/About.test.jsx" name="renders a &lt;aside&gt; element" time="0.072730054">
+        </testcase>
+        <testcase classname="src/__tests__/About.test.jsx" name="renders a &lt;img&gt; with the blog logo and alt text of &apos;blog logo&apos;" time="0.034718376">
+        </testcase>
+        <testcase classname="src/__tests__/About.test.jsx" name="uses a default value for the image if no image is passed as a prop" time="0.011310329">
+        </testcase>
+        <testcase classname="src/__tests__/About.test.jsx" name="renders a &lt;p&gt; with the about text" time="0.013285084">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/App.test.jsx" timestamp="2026-07-28T22:30:25.042Z" hostname="DESKTOP-69NATIL" tests="1" failures="0" errors="0" skipped="0" time="0.103170967">
+        <testcase classname="src/__tests__/App.test.jsx" name="renders the correct child components" time="0.100764374">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/Article.test.jsx" timestamp="2026-07-28T22:30:25.046Z" hostname="DESKTOP-69NATIL" tests="5" failures="0" errors="0" skipped="0" time="0.132996454">
+        <testcase classname="src/__tests__/Article.test.jsx" name="renders a &lt;article&gt; element" time="0.071341145">
+        </testcase>
+        <testcase classname="src/__tests__/Article.test.jsx" name="renders a &lt;h3&gt; with the title of the post" time="0.026375371">
+        </testcase>
+        <testcase classname="src/__tests__/Article.test.jsx" name="renders a &lt;small&gt; with the date of the post" time="0.010638135">
+        </testcase>
+        <testcase classname="src/__tests__/Article.test.jsx" name="uses a default value for the date if no date is passed as a prop" time="0.008183803">
+        </testcase>
+        <testcase classname="src/__tests__/Article.test.jsx" name="renders a &lt;p&gt; with the preview text" time="0.012995949">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/ArticleList.test.jsx" timestamp="2026-07-28T22:30:25.061Z" hostname="DESKTOP-69NATIL" tests="2" failures="0" errors="0" skipped="0" time="0.09433282">
+        <testcase classname="src/__tests__/ArticleList.test.jsx" name="renders a &lt;main&gt; element" time="0.073006839">
+        </testcase>
+        <testcase classname="src/__tests__/ArticleList.test.jsx" name="renders a Article component for each post passed as a prop" time="0.016654563">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/Header.test.jsx" timestamp="2026-07-28T22:30:25.068Z" hostname="DESKTOP-69NATIL" tests="2" failures="0" errors="0" skipped="0" time="0.088213129">
+        <testcase classname="src/__tests__/Header.test.jsx" name="renders a &lt;header&gt; element" time="0.060373503">
+        </testcase>
+        <testcase classname="src/__tests__/Header.test.jsx" name="renders a &lt;h1&gt; with the blog name" time="0.024106498">
+        </testcase>
+    </testsuite>
+</testsuites>
